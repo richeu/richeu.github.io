@@ -1,0 +1,90 @@
+*{
+ margin: 0;
+ padding: 0;   
+ box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #506e66;
+    min-height: 8vh;
+    opacity: 0.9;    
+}
+
+h1 {
+    color: rgb(226,226,226);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+    width: 65%;
+    list-style: none;
+}
+.nav-links a{
+    color:rgb(226,226,226);
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+body{
+    /* Location of the image */
+  background-image: url(background2.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+}
+main{
+    color:rgb(226,226,226);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 2;
+}
+
+.logo {
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #506e66;
+    min-height: 8vh;
+    opacity: 0.9;    
+    color: rgb(226,226,226);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.insta {
+    width: 30px;
+}
+.twitter {
+    width: 30px;
+}
+.github {
+    width: 30px;
+}
